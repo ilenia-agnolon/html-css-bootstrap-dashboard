@@ -62,7 +62,7 @@
 <form class="row g-3">
   <!-- nome/cognome autore -->
   <div class="col-6">
-    <label for="inputEmail4" class="form-label">Nome Autore</label>
+    <label for="inputEmail4" class="form-label fw-medium">Nome Autore</label>
     <input type="email" class="form-control" id="inputEmail4" placeholder="Inserisci il nome dell'autore">  
   </div>
   <div class="col-6">
@@ -73,27 +73,30 @@
   <div class="col-12">
     <label for="inputAddress" class="form-label">Titolo</label>
     <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci il titolo del libro">
+    <div class="form-text">Titolo versione italiana</div>
   </div>
   <!-- genere -->
   <div class="col-md-4 col-sm-12">
-    <label for="inputState" class="form-label">Genere</label>
-    <select id="inputState" class="form-select">
+    <label for="inputBookGenre" class="form-label">Genere</label>
+    <select id="inputBookGenre" class="form-select">
       <option selected>Scegli il genere</option>
       <option>...</option>
     </select>
   </div>
   <!-- anno pubblicazione -->
   <div class="col-md-4 col-sm-12">
-    <label for="inputCity" class="form-label">Anno di pubblicazione</label>
-    <input type="text" class="form-control" id="inputCity" placeholder="Inserisci l'anno">
+    <label for="inputYear" class="form-label">Anno di pubblicazione</label>
+    <input type="text" class="form-control" id="inputYear" placeholder="Inserisci l'anno">
   </div>
   <!-- codice ISBN -->
   <div class="col-md-4 col-sm-12">
-    <label for="inputZip" class="form-label">ISBN#</label>
-    <input type="text" class="form-control" id="inputZip" placeholder="Inserisci il codice ISBN#">
+    <label for="inputISBN" class="form-label">ISBN#</label>
+    <input type="text" class="form-control" id="inputISBN" placeholder="Inserisci il codice ISBN#">
   </div>
+  
   <!-- note -->
   <div class="col-12">
+    <hr>
     Note
   <div class="form-floating mt-2">
   <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
